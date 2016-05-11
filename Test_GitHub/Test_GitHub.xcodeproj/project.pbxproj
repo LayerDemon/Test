@@ -195,7 +195,8 @@
 		8C377DFC1CE363F500A737DD /* 我的位置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C377D401CE363F500A737DD /* 我的位置@2x.png */; };
 		8C377DFD1CE363F500A737DD /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C377D411CE363F500A737DD /* 返回按钮.png */; };
 		8C377DFE1CE363F500A737DD /* 返回按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C377D421CE363F500A737DD /* 返回按钮@2x.png */; };
-		8C377E001CE3640B00A737DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C377DFF1CE3640B00A737DD /* AVFoundation.framework */; };
+		8C377E021CE3656D00A737DD /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C377E011CE3656D00A737DD /* MediaAccessibility.framework */; };
+		8C377E051CE3664C00A737DD /* AAJKSSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C377E041CE3664C00A737DD /* AAJKSSK.m */; };
 		8C5EDCC11CE237BC002473E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCC01CE237BC002473E2 /* main.m */; };
 		8C5EDCC41CE237BC002473E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCC31CE237BC002473E2 /* AppDelegate.m */; };
 		8C5EDCC71CE237BC002473E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCC61CE237BC002473E2 /* ViewController.m */; };
@@ -413,7 +414,9 @@
 		8C377D401CE363F500A737DD /* 我的位置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的位置@2x.png"; sourceTree = "<group>"; };
 		8C377D411CE363F500A737DD /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
 		8C377D421CE363F500A737DD /* 返回按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮@2x.png"; sourceTree = "<group>"; };
-		8C377DFF1CE3640B00A737DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8C377E011CE3656D00A737DD /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		8C377E031CE3664C00A737DD /* AAJKSSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAJKSSK.h; sourceTree = "<group>"; };
+		8C377E041CE3664C00A737DD /* AAJKSSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAJKSSK.m; sourceTree = "<group>"; };
 		8C5EDCBC1CE237BC002473E2 /* Test_GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EDCC01CE237BC002473E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C5EDCC21CE237BC002473E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -438,7 +441,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C377E001CE3640B00A737DD /* AVFoundation.framework in Frameworks */,
+				8C377E021CE3656D00A737DD /* MediaAccessibility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,16 +465,9 @@
 		8C377C841CE363B900A737DD /* Framerwork */ = {
 			isa = PBXGroup;
 			children = (
-				8C377DFF1CE3640B00A737DD /* AVFoundation.framework */,
+				8C377E011CE3656D00A737DD /* MediaAccessibility.framework */,
 			);
 			path = Framerwork;
-			sourceTree = "<group>";
-		};
-		8C377C851CE363D200A737DD /* 测试文件夹 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "测试文件夹";
 			sourceTree = "<group>";
 		};
 		8C377C861CE363F500A737DD /* BookcaseImages */ = {
@@ -665,6 +661,8 @@
 				8C377D401CE363F500A737DD /* 我的位置@2x.png */,
 				8C377D411CE363F500A737DD /* 返回按钮.png */,
 				8C377D421CE363F500A737DD /* 返回按钮@2x.png */,
+				8C377E031CE3664C00A737DD /* AAJKSSK.h */,
+				8C377E041CE3664C00A737DD /* AAJKSSK.m */,
 			);
 			path = BookcaseImages;
 			sourceTree = "<group>";
@@ -694,7 +692,6 @@
 			isa = PBXGroup;
 			children = (
 				8C377C861CE363F500A737DD /* BookcaseImages */,
-				8C377C851CE363D200A737DD /* 测试文件夹 */,
 				8C5EDCC21CE237BC002473E2 /* AppDelegate.h */,
 				8C5EDCC31CE237BC002473E2 /* AppDelegate.m */,
 				8C5EDCC51CE237BC002473E2 /* ViewController.h */,
@@ -1055,6 +1052,7 @@
 			files = (
 				8C5EDCC71CE237BC002473E2 /* ViewController.m in Sources */,
 				8C5EDCC41CE237BC002473E2 /* AppDelegate.m in Sources */,
+				8C377E051CE3664C00A737DD /* AAJKSSK.m in Sources */,
 				8C5EDCCD1CE237BD002473E2 /* Test_GitHub.xcdatamodeld in Sources */,
 				8C5EDCC11CE237BC002473E2 /* main.m in Sources */,
 			);
