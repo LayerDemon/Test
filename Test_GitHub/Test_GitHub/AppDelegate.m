@@ -21,11 +21,9 @@
     /**
      *  //
      */
-
-    NSLog(@"dsjkakjasjkasjkasjk");
     
-    NSLog(@"hhhhhhh");
-
+    NSLog(@"你是傻逼吗？");
+    
     return YES;
 }
 
