@@ -39,11 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		8C377C821CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "徐静蕾手写方正字体.ttf"; sourceTree = "<group>"; };
-=======
 		2DA836A21CE35DD800C1E8A3 /* 好看2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "好看2.jpg"; sourceTree = "<group>"; };
->>>>>>> origin/master
 		8C5EDCBC1CE237BC002473E2 /* Test_GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EDCC01CE237BC002473E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C5EDCC21CE237BC002473E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,11 +109,8 @@
 		8C5EDCBE1CE237BC002473E2 /* Test_GitHub */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				8C377C821CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf */,
-=======
 				2DA836A21CE35DD800C1E8A3 /* 好看2.jpg */,
->>>>>>> origin/master
 				8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */,
 				8C5EDCC21CE237BC002473E2 /* AppDelegate.h */,
 				8C5EDCC31CE237BC002473E2 /* AppDelegate.m */,
