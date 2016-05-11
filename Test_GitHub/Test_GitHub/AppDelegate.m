@@ -28,7 +28,9 @@
 
     
     NSLog(@"你是傻逼吗？");
-    
+    NSLog(@"你是傻逼吗？");
+    NSLog(@"hhhhhhh");
+    NSLog(@"你是傻逼吗？");
     return YES;
 }
 

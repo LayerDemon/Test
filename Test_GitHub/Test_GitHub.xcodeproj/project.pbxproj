@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C377C831CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C377C821CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf */; };
 		2DA836A31CE35DD800C1E8A3 /* 好看2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DA836A21CE35DD800C1E8A3 /* 好看2.jpg */; };
 		8C5EDCC11CE237BC002473E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCC01CE237BC002473E2 /* main.m */; };
 		8C5EDCC41CE237BC002473E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCC31CE237BC002473E2 /* AppDelegate.m */; };
@@ -18,7 +17,6 @@
 		8C5EDCD21CE237BD002473E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EDCD01CE237BD002473E2 /* LaunchScreen.storyboard */; };
 		8C5EDCDD1CE237BD002473E2 /* Test_GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCDC1CE237BD002473E2 /* Test_GitHubTests.m */; };
 		8C5EDCE81CE237BD002473E2 /* Test_GitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */; };
-		8C7B2DA91CE2CFB500544A95 /* mc_sendfail_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C377C821CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "徐静蕾手写方正字体.ttf"; sourceTree = "<group>"; };
 		2DA836A21CE35DD800C1E8A3 /* 好看2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "好看2.jpg"; sourceTree = "<group>"; };
 		8C5EDCBC1CE237BC002473E2 /* Test_GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EDCC01CE237BC002473E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		8C5EDCE31CE237BD002473E2 /* Test_GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_GitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GitHubUITests.m; sourceTree = "<group>"; };
 		8C5EDCE91CE237BD002473E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mc_sendfail_btn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +105,7 @@
 		8C5EDCBE1CE237BC002473E2 /* Test_GitHub */ = {
 			isa = PBXGroup;
 			children = (
-				8C377C821CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf */,
 				2DA836A21CE35DD800C1E8A3 /* 好看2.jpg */,
-				8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */,
 				8C5EDCC21CE237BC002473E2 /* AppDelegate.h */,
 				8C5EDCC31CE237BC002473E2 /* AppDelegate.m */,
 				8C5EDCC51CE237BC002473E2 /* ViewController.h */,
@@ -257,9 +251,7 @@
 			files = (
 				2DA836A31CE35DD800C1E8A3 /* 好看2.jpg in Resources */,
 				8C5EDCD21CE237BD002473E2 /* LaunchScreen.storyboard in Resources */,
-				8C377C831CE35DFE00A737DD /* 徐静蕾手写方正字体.ttf in Resources */,
 				8C5EDCCF1CE237BD002473E2 /* Assets.xcassets in Resources */,
-				8C7B2DA91CE2CFB500544A95 /* mc_sendfail_btn.png in Resources */,
 				8C5EDCCA1CE237BC002473E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
