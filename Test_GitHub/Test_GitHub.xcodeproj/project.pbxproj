@@ -16,7 +16,6 @@
 		8C5EDCD21CE237BD002473E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5EDCD01CE237BD002473E2 /* LaunchScreen.storyboard */; };
 		8C5EDCDD1CE237BD002473E2 /* Test_GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCDC1CE237BD002473E2 /* Test_GitHubTests.m */; };
 		8C5EDCE81CE237BD002473E2 /* Test_GitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */; };
-		8C7B2DA61CE2CE1F00544A95 /* ViewContro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA51CE2CE1F00544A95 /* ViewContro.m */; };
 		8C7B2DA91CE2CFB500544A95 /* mc_sendfail_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */; };
 		8C7B2DAA1CE2CFB500544A95 /* mc_sendfail_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA81CE2CFB500544A95 /* mc_sendfail_btn@2x.png */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		8C5EDCE31CE237BD002473E2 /* Test_GitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_GitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GitHubUITests.m; sourceTree = "<group>"; };
 		8C5EDCE91CE237BD002473E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C7B2DA51CE2CE1F00544A95 /* ViewContro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContro.m; sourceTree = "<group>"; };
 		8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mc_sendfail_btn.png; sourceTree = "<group>"; };
 		8C7B2DA81CE2CFB500544A95 /* mc_sendfail_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mc_sendfail_btn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +113,6 @@
 				8C5EDCC31CE237BC002473E2 /* AppDelegate.m */,
 				8C5EDCC51CE237BC002473E2 /* ViewController.h */,
 				8C5EDCC61CE237BC002473E2 /* ViewController.m */,
-				8C7B2DA51CE2CE1F00544A95 /* ViewContro.m */,
 				8C5EDCC81CE237BC002473E2 /* Main.storyboard */,
 				8C5EDCCE1CE237BD002473E2 /* Assets.xcassets */,
 				8C5EDCD01CE237BD002473E2 /* LaunchScreen.storyboard */,
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5EDCC71CE237BC002473E2 /* ViewController.m in Sources */,
-				8C7B2DA61CE2CE1F00544A95 /* ViewContro.m in Sources */,
 				8C5EDCC41CE237BC002473E2 /* AppDelegate.m in Sources */,
 				8C5EDCCD1CE237BD002473E2 /* Test_GitHub.xcdatamodeld in Sources */,
 				8C5EDCC11CE237BC002473E2 /* main.m in Sources */,
