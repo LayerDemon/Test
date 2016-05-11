@@ -17,6 +17,8 @@
 		8C5EDCDD1CE237BD002473E2 /* Test_GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCDC1CE237BD002473E2 /* Test_GitHubTests.m */; };
 		8C5EDCE81CE237BD002473E2 /* Test_GitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */; };
 		8C7B2DA61CE2CE1F00544A95 /* ViewContro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA51CE2CE1F00544A95 /* ViewContro.m */; };
+		8C7B2DA91CE2CFB500544A95 /* mc_sendfail_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */; };
+		8C7B2DAA1CE2CFB500544A95 /* mc_sendfail_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7B2DA81CE2CFB500544A95 /* mc_sendfail_btn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		8C5EDCE71CE237BD002473E2 /* Test_GitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GitHubUITests.m; sourceTree = "<group>"; };
 		8C5EDCE91CE237BD002473E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C7B2DA51CE2CE1F00544A95 /* ViewContro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContro.m; sourceTree = "<group>"; };
+		8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mc_sendfail_btn.png; sourceTree = "<group>"; };
+		8C7B2DA81CE2CFB500544A95 /* mc_sendfail_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mc_sendfail_btn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		8C5EDCBE1CE237BC002473E2 /* Test_GitHub */ = {
 			isa = PBXGroup;
 			children = (
+				8C7B2DA71CE2CFB500544A95 /* mc_sendfail_btn.png */,
+				8C7B2DA81CE2CFB500544A95 /* mc_sendfail_btn@2x.png */,
 				8C5EDCC21CE237BC002473E2 /* AppDelegate.h */,
 				8C5EDCC31CE237BC002473E2 /* AppDelegate.m */,
 				8C5EDCC51CE237BC002473E2 /* ViewController.h */,
@@ -250,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5EDCD21CE237BD002473E2 /* LaunchScreen.storyboard in Resources */,
+				8C7B2DAA1CE2CFB500544A95 /* mc_sendfail_btn@2x.png in Resources */,
 				8C5EDCCF1CE237BD002473E2 /* Assets.xcassets in Resources */,
+				8C7B2DA91CE2CFB500544A95 /* mc_sendfail_btn.png in Resources */,
 				8C5EDCCA1CE237BC002473E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
